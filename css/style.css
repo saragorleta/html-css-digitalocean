@@ -4,7 +4,7 @@
   height: 100px;
 }
 .debug .h_500{
-  background-color:blue;
+  background-color:#004AFF;
   height: 400px;
 }
 
@@ -18,3 +18,9 @@ questi div devono essere float:left , quando andrò a inserire le img sono da ge
 nella versione smartphone sono da calcolare al 50% */
 /* .drops .global
 devono essere con float:left */
+.tit_white{
+color:white;
+}
+.tit_darkblue{
+  color:#011C4B;
+}
