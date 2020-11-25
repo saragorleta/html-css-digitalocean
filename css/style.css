@@ -4,9 +4,10 @@
   height: 100px;
 }
 .debug .h_500{
-  height: 400px;
   background-color:blue;
+  height: 400px;
 }
+
 .debug .h_300{
   background-color:white;
   height:300px;
