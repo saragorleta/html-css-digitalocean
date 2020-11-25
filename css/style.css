@@ -1,0 +1,9 @@
+.debug [class*="col-"]{
+  background-color: pink;
+  border: 1px solid black;
+  height: 100px;
+}
+.debug .h_500{
+  height: 400px;
+  background-color: green;
+}
