@@ -5,5 +5,15 @@
 }
 .debug .h_500{
   height: 400px;
-  background-color: green;
+  background-color:blue;
 }
+.debug .h_300{
+  background-color:white;
+  height:300px;
+  border:1px solid blue;
+}
+/* .icon
+questi div devono essere float:left , quando andrò a inserire le img sono da gestire con calc;
+nella versione smartphone sono da calcolare al 50% */
+/* .drops .global
+devono essere con float:left */
