@@ -22,7 +22,17 @@ nella versione smartphone sono da calcolare al 50% */
 devono essere con float:left */
 
 /* RIUTILIZZABILI */
-
+.clearfix{
+  content:"";
+  display:table;
+  clear:both;
+}
+.float_left{
+  float:left;
+}
+.bg_color{
+  background-color:rgb(212, 218, 230);
+}
 .tit_blue{
   color:#004AFF;
 }
@@ -32,8 +42,11 @@ color:white;
 .tit_darkblue{
   color:#011C4B;
 }
-.m_5{
-  margin:10%;
+.mb_10{
+  margin-bottom:10%;
+}
+.mt_15{
+  margin-top:15%;
 }
 .mb_2{
   margin-bottom:2%;
@@ -45,31 +58,37 @@ color:white;
 a {
   text-decoration: none;
 }
-
 ul {
   list-style: none;
 }
-
 ul li {
   display: inline-block;
+  margin-right: 10px;
+}
+.logo_ocean{
+  width: 30%;
 }
 .nav_center{
+  height:30px;
   color:#011C4B;
   padding:2% 15%;
-  line-height: 100%;
 }
 .nav_right{
   color:#011C4B;
+  padding:2% 15%;
 }
 .fixed{
-  width: 100%;
+  width:100%;
   background-color:white;
   padding-bottom:0px;
   position:fixed;
   top:0;
   left: 0;
   z-index:1;
-
+}
+.drop{
+  color:#011C4B;
+  margin-right: 10px;
 }
 /* jumbotron */
 .sfondo_jumb{
@@ -94,6 +113,8 @@ ul li {
   font-weight:600;
 }
 .deploy{
+  margin-right:10%;
+  margin-bottom:5%;
   background-color:white;
   border-radius:5%;
 }
@@ -116,4 +137,34 @@ ul li {
   font-weight:600;
   color:#011C4B;
   padding-left: 25px;
+}
+/* fine jumbotron */
+/* icon */
+#icon h5 {
+  margin-top:5%;
+  text-transform: uppercase;
+  font-weight: 600;
+  color:grey;
+}
+.icon_docker{
+  width: calc(100% / 6);
+  height: 50px;
+  background-image:url(../img/img/logo_docker.png);
+
+}
+.icon_gitlab img{
+  width: calc(100% / 6);
+  background-color: yellow;
+}
+.icon_slack img{
+width: calc(100% / 6);
+background-color: yellow;
+}
+.icon_hashicorp img{
+  width: calc(100%/6);
+  background-color: yellow;
+}
+.icon_splunk{
+  width: calc(100%/6);
+  background-color: yellow;
 }
