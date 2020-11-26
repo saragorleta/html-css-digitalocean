@@ -54,6 +54,15 @@ color:white;
 .p_5{
   padding:5%;
 }
+.style_h3{
+  font-weight:700;
+  text-align: center;
+}
+.style_p{
+  color:grey;
+  font-weight:700;
+  text-align: center;
+}
 /* nav */
 a {
   text-decoration: none;
@@ -66,7 +75,9 @@ ul li {
   margin-right: 10px;
 }
 .logo_ocean{
-  width: 30%;
+  width:60%;
+  margin-top:2%;
+  margin-left:30%;
 }
 .nav_center{
   height:30px;
@@ -146,25 +157,12 @@ ul li {
   font-weight: 600;
   color:grey;
 }
-.icon_docker{
+.icon{
   width: calc(100% / 6);
-  height: 50px;
-  background-image:url(../img/img/logo_docker.png);
+  height: 100px;
 
 }
-.icon_gitlab img{
-  width: calc(100% / 6);
-  background-color: yellow;
-}
-.icon_slack img{
-width: calc(100% / 6);
-background-color: yellow;
-}
-.icon_hashicorp img{
-  width: calc(100%/6);
-  background-color: yellow;
-}
-.icon_splunk{
-  width: calc(100%/6);
-  background-color: yellow;
+.icon img{
+  width: 100%;
+  line-height: 100px;
 }
