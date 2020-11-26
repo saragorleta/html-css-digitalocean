@@ -1,3 +1,4 @@
+/* da togliere le altezze */
 .debug [class*="col-"]{
   background-color: pink;
   border: 1px solid black;
@@ -7,20 +8,86 @@
   background-color:#004AFF;
   height: 400px;
 }
-
 .debug .h_300{
   background-color:white;
   height:300px;
   border:1px solid blue;
 }
+/* da togliere le altezze */
+
 /* .icon
 questi div devono essere float:left , quando andrò a inserire le img sono da gestire con calc;
 nella versione smartphone sono da calcolare al 50% */
 /* .drops .global
 devono essere con float:left */
+
+/* RIUTILIZZABILI */
+
+.tit_blue{
+  color:#004AFF;
+}
 .tit_white{
 color:white;
 }
 .tit_darkblue{
   color:#011C4B;
+}
+.m_5{
+  margin:10%;
+}
+.mb_2{
+  margin-bottom:2%;
+}
+.p_5{
+  padding:5%;
+}
+
+
+
+
+/* jumbotron */
+.sfondo_jumb{
+  background-image: url(../img/bg-home-1.jpg);
+}
+#jumbotron h1{
+  font-size: 50px;
+  font-weight:600;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom:2%;
+}
+#jumbotron h6{
+  font-size:20px;
+  font-weight:400;
+  color:rgba(249, 249, 249, 0.66);
+  margin:0 10%;
+}
+.fontdeploy{
+  font-size: 30px;
+  font-weight:600;
+}
+.deploy{
+  background-color:white;
+  border-radius:5%;
+}
+.btn{
+  width: 100%;
+}
+.bg_btn{
+  background-color:rgb(77, 122, 190);
+  color:white;
+  padding-left:50%;
+}
+.signup img{
+  width: 5%;
+}
+.agree a{
+  color:#004AFF;
+  text-decoration: underline;
+}
+.agree small{
+  font-weight:600;
+  color:#011C4B;
+  padding-left: 25px;
 }
