@@ -41,10 +41,37 @@ color:white;
 .p_5{
   padding:5%;
 }
+/* nav */
+a {
+  text-decoration: none;
+}
 
+ul {
+  list-style: none;
+}
 
+ul li {
+  display: inline-block;
+}
+.nav_center{
+  color:#011C4B;
+  padding:2% 15%;
+  line-height: 100%;
+}
+.nav_right{
+  color:#011C4B;
+}
+.fixed{
+  
+  width: 100%;
+  background-color:white;
+  padding-bottom:0px;
+  position:fixed;
+  top:0;
+  left: 0;
+  z-index:1;
 
-
+}
 /* jumbotron */
 .sfondo_jumb{
   background-image: url(../img/bg-home-1.jpg);
