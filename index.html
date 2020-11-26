@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Digital Ocean</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Digital Ocean</title>
+
 </head>
 <body>
 <!-- header -->
@@ -15,34 +16,51 @@
 <div id="nav" class="fixed">
   <div class="container">
     <div class="row">
-      <div class="col-md-2 col-xs-6">
-        Logo
+      <!-- logo -->
+      <div class="col-xs-3">
+        <a href="#" class="header_logo">
+          <img class="logo" src="img/logo.png" alt="DigitalOcean">
+        </a>
       </div>
-      <div class="col-md-5 hidden-xs hidden-sm">
-        <div class="nav_center">
+    <!-- menu visibile in lg -->
+      <div class="col-lg-5">
+        <div class="nav_center list-inline text-left">
           <ul>
-            <li>Products</li>
-            <li>Customers</li>
-            <li>Community</li>
-            <li>Pricing</li>
+            <li class="drop"><a href="#">Products</a>
+            </li>
+            <li>
+              <a href="#">Customers</a>
+            </li>
+            <li class="drop">
+              <a href="#">Community</a>
+            </li>
+            <li><a href="#">Pricing</a></li>
           </ul>
         </div>
-
       </div>
-      <div class="col-md-5 col-xs-6">
-        <div class="nav_right">
+      <div class="col-lg-4">
+        <div class="nav_right list-inline text-right">
           <ul>
-            <li>Docs</li>
-            <li>Support</li>
-            <li>Login</li>
-            <li>Sign up</li>
+            <li>
+              <a href="#">Docs</a>
+            </li>
+            <li class="drop">
+              <a href="#">Support</a>
+            </li>
+            <li>
+              <a href="#">Login</a>
+            </li>
+            <li>
+              <a href="#" class="btn btn-default btn_white_blue">Sign Up</a>
+            </li>
           </ul>
         </div>
-
       </div>
+      <!-- hamburger menu nascosto in lg -->
     </div>
   </div>
 </div>
+</header>
 <!-- end nav -->
  <div id="jumbotron">
   <div class="container sfondo_jumb">
@@ -80,7 +98,6 @@
   </div>
  </div>
 <!-- end jumbotron -->
-</header>
 <!-- end header -->
 <!-- main -->
 <main>
