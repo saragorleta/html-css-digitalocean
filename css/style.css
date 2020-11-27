@@ -1,5 +1,5 @@
 /* da togliere le altezze */
-.debug [class*="col-"]{
+/* .debug [class*="col-"]{
   background-color: pink;
   border: 1px solid black;
   height: 100px;
@@ -12,14 +12,9 @@
   background-color:white;
   height:300px;
   border:1px solid blue;
-}
+} */
 /* da togliere le altezze */
 
-/* .icon
-questi div devono essere float:left , quando andrò a inserire le img sono da gestire con calc;
-nella versione smartphone sono da calcolare al 50% */
-/* .drops .global
-devono essere con float:left */
 
 /* RIUTILIZZABILI */
 .clearfix{
@@ -32,6 +27,15 @@ devono essere con float:left */
 }
 .bg_color{
   background-color:rgb(212, 218, 230);
+}
+.bg_color_blue{
+  background-color:#004AFF;
+}
+.bg_color_darkblue{
+  background-color:#011C4B;
+}
+.tit_grey{
+  color:rgba(249, 249, 249, 0.66);
 }
 .tit_blue{
   color:#004AFF;
@@ -64,13 +68,13 @@ color:white;
   text-align: center;
 }
 /* nav */
-a {
+#nav a {
   text-decoration: none;
 }
-ul {
+#nav ul {
   list-style: none;
 }
-ul li {
+#nav ul li {
   display: inline-block;
   margin-right: 10px;
 }
@@ -125,6 +129,7 @@ ul li {
 }
 .deploy{
   margin-right:10%;
+  margin-left: 10%;
   margin-bottom:5%;
   background-color:white;
   border-radius:5%;
@@ -159,10 +164,250 @@ ul li {
 }
 .icon{
   width: calc(100% / 6);
-  height: 100px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
 
 }
 .icon img{
+  width: 80%;
+}
+/* fine icon da aggiustare media screen xs*/
+
+/* deploy */
+#deploy{
+  margin-top:5%;
+}
+.drops {
+  width:60%;
+}
+.global {
+  width:60%;
+}
+.list_deploy li a{
+  color:grey;
+  font-weight:700;
+}
+.list_deploy li{
+  list-style: none;
+  border-left: 1px solid grey;
+  padding:30% 0;
+}
+.drops h5{
+  font-weight: 600;
+  font-size: 20px;
+}
+.global h5{
+  font-weight: 600;
+  font-size: 20px;
+}
+#deploy p{
+  padding-bottom: 30px;
+  font-size: 10px;
+  text-align: justify;
+}
+/* fine deploy */
+/* designed */
+#designed img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
-  line-height: 100px;
+  padding-top:10%;
+  padding-right:20%;
+  padding-left:20%;
+}
+#designed .fas::after{
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  content: "\f053";
+
+}
+/* end designed */
+/* features */
+#features img{
+  width: 10%;
+  padding-top: 10%;
+}
+/* end features */
+/* regions*/
+
+  .boxes{
+    padding-top:5%;
+    padding-left: 5%;
+
+  }
+  .box_ul {
+    border-bottom: 1px solid white;
+  }
+  .box ul li{
+    display: inline-block;
+  }
+  .box li{
+    text-decoration: none;
+  }
+  .ams{
+    font-size:10px;
+    text-align:left;
+    font-weight: 600;
+    color:white;
+    padding-right:60px;
+  }
+  .city{
+    font-size:10px;
+    color:white;
+    padding-right:100px;
+  }
+  .speed a{
+    font-size:10px;
+  }
+/* rockerbox */
+.sfondo_rocker{
+  width: 70%;
+  height:300px;
+  background-color: green;
+  position: relative;
+}
+.sfondo_rocker img{
+  position: absolute;
+  top:0;
+  left:35%;
+}
+
+/* topfooter */
+.started{
+  position: relative;
+  padding-bottom: 5%;
+}
+.btn{
+  width:20%;
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+.btn-account{
+  background-color: white;
+  border-color: white;
+  color:#004AFF;
+}
+
+/* bottomfooter */
+#bottom_footer img{
+  width:10%;
+}
+#bottom_footer ul li{
+  list-style: none;
+  color:rgba(249, 249, 249, 0.66);
+  margin-left: -30px;
+  padding-bottom:5%;
+}
+#bottom_footer a{
+  color:rgba(249, 249, 249, 0.66);
+}
+.logo_bottomfooter{
+  position: relative;
+}
+.position_logo_bottomfooter{
+  position: absolute;
+  left:50%;
+  transform:translateX(-50%);
+  padding-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:480px)and (max-width:768px){
+
+  .col-xs-12{
+    width: calc(50% / 12 * 12);
+
+  }
 }
