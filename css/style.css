@@ -246,10 +246,6 @@ color:white;
     padding-top:5%;
     padding-left: 5%;
   }
-  .box{
-
-
-  }
   .box_ul {
     border-bottom: 1px solid white;
   }
@@ -276,17 +272,13 @@ color:white;
   }
 /* rockerbox */
 .sfondo_rocker{
-  width: 70%;
-  height:300px;
-  background-color: green;
-  position: relative;
+  width:100%;
+  background-color:white;
+  padding:5%;
 }
 .sfondo_rocker img{
-  position: absolute;
-  top:0;
-  left:35%;
+  width:100%;
 }
-
 /* topfooter */
 .started{
   position: relative;
