@@ -58,6 +58,15 @@ color:white;
 .p_5{
   padding:5%;
 }
+.pb_5{
+  padding-bottom:5%;
+}
+.pt_5{
+  padding-top:5%;
+}
+.pt_2{
+  padding-top: 2%;
+}
 .style_h3{
   font-weight:700;
   text-align: center;
@@ -213,7 +222,7 @@ color:white;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  padding-top:10%;
+  padding-top:2%;
   padding-right:20%;
   padding-left:20%;
 }
@@ -222,7 +231,6 @@ color:white;
   font-weight: 900;
   font-family: "Font Awesome 5 Free";
   content: "\f053";
-
 }
 /* end designed */
 /* features */
@@ -230,12 +238,16 @@ color:white;
   width: 10%;
   padding-top: 10%;
 }
+
 /* end features */
 /* regions*/
 
   .boxes{
     padding-top:5%;
     padding-left: 5%;
+  }
+  .box{
+
 
   }
   .box_ul {
